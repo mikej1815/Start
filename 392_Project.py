@@ -1,6 +1,5 @@
 import pandas as pd
-import warnings
-warnings.simplefilter(action='ignore', category=FutureWarning)
+
 excel_file = r"C:\Users\Michael\Downloads\Records.csv"
 
 df = pd.read_csv(excel_file)
